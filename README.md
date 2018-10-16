@@ -1,10 +1,10 @@
-# Rock, Paper, Scissors
+<!-- # Rock, Paper, Scissors
 
 You tried in the JavaScript workshop, but you were missing one crucial element: *callbacks*.
 
 Take a look at this:
 
-```js
+```js -->
 const readline = require('readline');
 
 const reader = readline.createInterface({
@@ -15,7 +15,7 @@ const reader = readline.createInterface({
 reader.question(`sup? \n`, (res) => {
   console.log(`you replied: ${res}`)
 });
-```
+<!-- ```
 
 `readline` is what's known as a *library*. Don't worry about what that is, precisely, yet - just know that, like class methods, it's something that Node makes available to us to use how we'd like.
 
@@ -45,4 +45,4 @@ A few notes here:
 
 Your task is to use `readline` to **write a simple version of Eliza** - a chatbot that can handle any input and return an at-least-sort-of-relevant question.
 
-*Hint*: When the user says "I" or "I'm" or any word referring to themselves, that's a dead giveaway that the next thing they write will be useful to your response.
+*Hint*: When the user says "I" or "I'm" or any word referring to themselves, that's a dead giveaway that the next thing they write will be useful to your response. -->
